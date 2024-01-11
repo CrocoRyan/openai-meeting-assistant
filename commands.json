@@ -1,0 +1,6 @@
+[
+    {"command": "start", "description": "Start the bot and get menu"},
+    {"command": "pull_up_history", "description": "Pull up summary records of past meetings"},
+    {"command": "help", "description": "Get help information"},
+    {"command": "about", "description": "Information about the bot"}
+]
