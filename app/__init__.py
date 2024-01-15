@@ -21,6 +21,7 @@ def create_app():
         config_file = os.path.join(current_working_directory, 'config_prod.json')
     else:
         config_file = os.path.join(current_working_directory, 'config_qa.json')
+    print(f"Application running in {env} version")
 
     # 加载 JSON 配置文件
     app.config.from_file(config_file, load=json.load)
