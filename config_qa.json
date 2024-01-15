@@ -1,8 +1,8 @@
 {
-    "DEBUG": true,
-    "OPENAI_API_KEY":"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",
-    "SPEECH_KEY":"27e3e9e31a5344799de4135428cd9dac",
-  "SPEECH_REGION":"eastus",
+  "DEBUG": true,
+  "OPENAI_API_KEY": "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",
+  "SPEECH_KEY": "27e3e9e31a5344799de4135428cd9dac",
+  "SPEECH_REGION": "eastus",
   "DATABASE_URI": "mongodb://localhost:27017",
   "BOT_TOKEN": "6334853816:AAEM3_oEai8LROAuGri0r5BRk_loR3cwi4I",
   "BOT_LINK": "t.me/meeting_assistant_demo_bot",
