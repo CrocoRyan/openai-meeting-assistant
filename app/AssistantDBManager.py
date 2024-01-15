@@ -9,6 +9,18 @@ class AssistantDBManager:
         self.db = self.client["assistant_db"]
         self.assistants_collection = self.db["user_history"]
 
+        # Check if the wildcard index already exists
+        index_exists = any(
+            index.get('key', {}).get('$**') == 1 for index in self.assistants_collection.list_indexes()
+        )
+
+        # Create the wildcard index if it does not exist
+        if not index_exists:
+            self.assistants_collection.create_index([("$**", 1)])
+            print("Created wildcard index.")
+        else:
+            print("Wildcard index already exists.")
+
     def check_user_exists(self, user_id):
         # Check if user exists in the assistants collection
         user = self.assistants_collection.find_one({"userID": user_id})
@@ -52,9 +64,9 @@ class AssistantDBManager:
         user_data = self.assistants_collection.find_one({"userID": user_id})
         return user_data
 
-    def append_message(self, user_id, message, message_type):
+    def append_message(self, user_id,thread_id, message, message_type):
         # Find the document for the user
-        user_doc = self.assistants_collection.find_one({"userID": user_id})
+        user_doc = self.assistants_collection.find_one({"userID": user_id,"threadID": thread_id})
         timestamp = datetime.utcnow()
 
         if user_doc:

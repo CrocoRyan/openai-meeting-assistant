@@ -1,7 +1,5 @@
 import time
-from datetime import datetime
 
-from flask_restful import Resource, reqparse
 from time import sleep
 from openai import OpenAI
 import json
@@ -49,13 +47,9 @@ class AIAgent:
         user_data = current_app.db_manager.get_user_data(user_id, inner_index)
         return user_data
 
-    # def start_new_chat(self,user_id, user_input):
-    #     # open a new chat for user without thread_id in cache
-    #     all_ids = self.check_and_add_user_data(user_id)
-    #     return self.respond(user_id, user_input,thread_id=None)
     def respond(self,user_id,thread_id,user_input):
         try:
-            #todo: maybe no thread id
+
             if thread_id is None:
                 thread_id = current_app.ai_agent.create_thread(user_id)
                 current_app.message_handler.set_thread_by_id(user_id, thread_id)
@@ -65,7 +59,7 @@ class AIAgent:
                 thread_id=thread_id, role="user", content=user_input
             )
             # appending user response in the database
-            current_app.db_manager.append_message(user_id, user_input, "user")
+            current_app.db_manager.append_message(user_id,thread_id, user_input, "user")
 
             # Run the Assistant
             run = self.client.beta.threads.runs.create(
@@ -95,7 +89,7 @@ class AIAgent:
             # todo: fix json response
             # json_response = self.parse_json_garbage(response)
             # appending assistant response in the database
-            current_app.db_manager.append_message(user_id, response, "assistant_response")
+            current_app.db_manager.append_message(user_id, thread_id, response, "assistant_response")
             splited_messages=split_gpt_text(response)
             for message in splited_messages:
             # todo: make it only display explanation
