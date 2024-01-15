@@ -6,8 +6,8 @@ class AssistantDBManager:
     def __init__(self, connection_string):
         # Establishing connections and initializing collections
         self.client = pymongo.MongoClient(connection_string)
-        self.db = self.client["assistantDB"]  # todo: change to upper case for all
-        self.assistants_collection = self.db["UserHistory"]
+        self.db = self.client["assistant_db"]
+        self.assistants_collection = self.db["user_history"]
 
     def check_user_exists(self, user_id):
         # Check if user exists in the assistants collection

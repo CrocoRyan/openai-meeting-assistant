@@ -7,7 +7,7 @@ from app.AIAgent import AIAgent
 from app.BotManager import BotManager
 from app.MessageHandler import MessageHandler
 from app.SpeechService import SpeechService
-from app.assistant_db_manager import AssistantDBManager
+from app.AssistantDBManager import AssistantDBManager
 import azure.cognitiveservices.speech as speechsdk
 import os
 from app.routes import bp as main_bp
