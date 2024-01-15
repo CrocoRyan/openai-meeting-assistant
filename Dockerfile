@@ -1,5 +1,7 @@
 # Use ffmpeg:4.3-alpine as the base image
 FROM ubuntu:20.04
+
+# production profile
 ENV FLASK_ENV=prod
 ENV FLASK_DEBUG=true
 # Install Python 3.8 and pip
