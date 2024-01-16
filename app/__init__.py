@@ -6,7 +6,7 @@ from flask import Flask
 from app.AIAgent import AIAgent
 from app.AssistantDBManager import AssistantDBManager
 from app.BotManager import BotManager
-from app.MessageHandler import MessageHandler
+from app.CommandHandler import CommandHandler
 from app.Routes import bp as main_bp
 from app.SpeechService import SpeechService
 

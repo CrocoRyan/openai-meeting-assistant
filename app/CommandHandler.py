@@ -7,7 +7,7 @@ from flask import current_app
 from app.models.ChatState import ChatState
 
 
-class MessageHandler:
+class CommandHandler:
     def __init__(self, token):
         self.user_thread_state = {}
         self.bot_token = token
