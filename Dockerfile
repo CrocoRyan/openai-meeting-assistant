@@ -2,7 +2,7 @@
 FROM ubuntu:20.04
 
 # production profile
-ENV FLASK_ENV=prod
+ENV FLASK_ENV=qa
 ENV FLASK_DEBUG=true
 # Install Python 3.8 and pip
 RUN apt-get update && \

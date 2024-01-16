@@ -1,0 +1,10 @@
+{
+  "DEBUG": "***********",
+  "OPENAI_API_KEY": "***********",
+  "SPEECH_KEY": "***********",
+  "SPEECH_REGION": "***********",
+  "DATABASE_URI": "***********",
+  "BOT_TOKEN": "***********",
+  "BOT_LINK": "***********",
+  "ASSISTANT_ID": "***********"
+}
