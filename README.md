@@ -8,7 +8,7 @@ OpenAI's GPT models to deliver accurate and concise meeting summaries.
 
 ### Key Features:
 
-- **Real-Time Transcription**: Leverages Azure's Speech-to-Text service to transcribe meetings in real-time.
+- **Bilingual Real-Time Transcription**: Leverages Azure's Speech-to-Text service to transcribe meetings in real-time. Support both Chinese and English.
 - **AI Summarization**: Uses OpenAI's GPT models to generate summaries of the transcribed text, focusing on key
   points and decisions.
 - **Persistent Storage & Conversation History Management**: NoSQL(CosmosDB or MongoDB) integration to manage multiple users, threads, and conversation history. Thread management & tracking for every user interaction
@@ -75,7 +75,8 @@ docker run -d -p 5000:5000 --name meeting-assistant openai-meeting-assistant:lat
 1. **Start a conversation with the Telegram bot.**
 2. **Initiate a meeting transcription by sending a voice message or starting a live audio feed.**
 3. **Receive real-time transcriptions and request summaries as needed.**
-4. **Access past transcripts and summaries memory from the MongoDB database.**
+4. **Access past transcripts and summaries memory using /pull_up_history command.**
+5. **Clear cache & start new conversation with /start command**
 5. TBD
 
 
