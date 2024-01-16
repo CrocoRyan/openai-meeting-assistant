@@ -4,7 +4,6 @@ from enum import Enum
 import requests
 
 from utils.constants import FileType
-# from flask import current_app
 
 from utils.file_utils import create_folder_if_not_exist
 
