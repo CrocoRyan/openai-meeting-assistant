@@ -27,7 +27,8 @@ OpenAI's GPT models to deliver accurate and concise meeting summaries.
 - **Hosting/Deployment**: Docker, Azure Container Registry + Azure App Service 
 
 ### System Architecture
-![Alternative Text](System Architecture.svg)
+![Alt Text](./system_architecture.svg)
+<img src="./system_architecture.svg">
 
 ## Getting Started
 
