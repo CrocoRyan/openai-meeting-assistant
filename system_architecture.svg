@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- 由 Microsoft Visio, SVG Export 生成 绘图1.svg Page-1 -->
+<!-- 由 Microsoft Visio, SVG Export 生成 system_architecture.svg Page-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="16.4921in" height="23.7913in"
-		viewBox="0 0 1187.43 1712.98" xml:space="preserve" color-interpolation-filters="sRGB" class="st19">
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="16.4921in" height="16.0276in"
+		viewBox="0 0 1187.43 1153.98" xml:space="preserve" color-interpolation-filters="sRGB" class="st19">
 	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
 		<v:userDefs>
 			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
@@ -24,7 +24,7 @@
 		.st10 {fill:#000000;font-family:Arial Unicode MS;font-size:1.00001em}
 		.st11 {marker-end:url(#mrkr5-123);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st12 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22935779816514}
-		.st13 {fill:#ffffff;stroke:none;stroke-linecap:butt}
+		.st13 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
 		.st14 {fill:#000000;font-family:Arial Unicode MS;font-size:0.833336em}
 		.st15 {marker-end:url(#mrkr5-123);marker-start:url(#mrkr5-132);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st16 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
@@ -64,7 +64,7 @@
 				v:shadowOffsetY="-8.50394"/>
 		<v:layer v:name="容器" v:index="0"/>
 		<v:layer v:name="连接线" v:index="1"/>
-		<g id="group10-1" transform="translate(206.15,-845.249)" v:mID="10" v:groupContext="group" v:layerMember="0">
+		<g id="group10-1" transform="translate(96.2137,-711.921)" v:mID="10" v:groupContext="group" v:layerMember="0">
 			<v:userDefs>
 				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
 				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
@@ -135,7 +135,7 @@
 					</v:userDefs>
 				</g>
 				<g id="shape11-5" v:mID="11" v:groupContext="groupContent" v:layerMember="0">
-					<path d="M0 1712.98 L106.3 1712.98 L212.6 1712.98 L212.6 1496.31 L106.3 1496.31 L0 1496.31 L0 1712.98 Z"
+					<path d="M0 1153.98 L106.3 1153.98 L212.6 1153.98 L212.6 937.32 L106.3 937.32 L0 937.32 L0 1153.98 Z"
 							class="st1"/>
 				</g>
 			</g>
@@ -197,13 +197,13 @@
 				</g>
 				<g id="shape13-12" v:mID="13" v:groupContext="groupContent" v:layerMember="0">
 					<v:textBlock v:margins="rect(4,6,4,6)" v:tabSpace="42.5197"/>
-					<v:textRect cx="106.299" cy="1685.34" width="212.6" height="55.2756"/>
-					<path d="M0 1712.98 L212.6 1712.98 L212.6 1657.7 L106.3 1657.7 L0 1657.7 L0 1712.98 Z" class="st1"/>
-					<text x="51.3" y="1679.94" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FRONTEND <tspan
+					<v:textRect cx="106.299" cy="1126.35" width="212.6" height="55.2756"/>
+					<path d="M0 1153.98 L212.6 1153.98 L212.6 1098.71 L106.3 1098.71 L0 1098.71 L0 1153.98 Z" class="st1"/>
+					<text x="51.3" y="1120.95" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>FRONTEND <tspan
 								x="62.84" dy="1.2em" class="st3">SERVICE</tspan></text>				</g>
 			</g>
 		</g>
-		<g id="group20-16" transform="translate(968.39,-526.677)" v:mID="20" v:groupContext="group" v:layerMember="0">
+		<g id="group20-16" transform="translate(922.871,-161.433)" v:mID="20" v:groupContext="group" v:layerMember="0">
 			<v:userDefs>
 				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
 				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
@@ -276,7 +276,7 @@
 					</v:userDefs>
 				</g>
 				<g id="shape21-20" v:mID="21" v:groupContext="groupContent" v:layerMember="0">
-					<path d="M0 1712.98 L71.56 1712.98 L143.12 1712.98 L143.12 1397.85 L71.56 1397.85 L0 1397.85 L0 1712.98 Z"
+					<path d="M0 1153.98 L71.56 1153.98 L143.12 1153.98 L143.12 838.85 L71.56 838.85 L0 838.85 L0 1153.98 Z"
 							class="st4"/>
 				</g>
 			</g>
@@ -346,12 +346,12 @@
 				</g>
 				<g id="shape23-26" v:mID="23" v:groupContext="groupContent" v:layerMember="0">
 					<v:textBlock v:margins="rect(4,6,4,6)" v:tabSpace="42.5197"/>
-					<v:textRect cx="71.5599" cy="1693.84" width="143.12" height="38.2677"/>
-					<text x="36.72" y="1690.24" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>EXTERNAL <tspan
+					<v:textRect cx="71.5599" cy="1134.85" width="143.12" height="38.2677"/>
+					<text x="36.72" y="1131.25" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>EXTERNAL <tspan
 								x="38.18" dy="1.2em" class="st3">SERVICES</tspan></text>				</g>
 			</g>
 		</g>
-		<g id="group25-32" transform="translate(967.114,-850.883)" v:mID="25" v:groupContext="group" v:layerMember="0">
+		<g id="group25-32" transform="translate(921.596,-485.639)" v:mID="25" v:groupContext="group" v:layerMember="0">
 			<v:userDefs>
 				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
 				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
@@ -424,7 +424,7 @@
 					</v:userDefs>
 				</g>
 				<g id="shape26-36" v:mID="26" v:groupContext="groupContent" v:layerMember="0">
-					<path d="M0 1712.98 L71.56 1712.98 L143.12 1712.98 L143.12 1529.21 L71.56 1529.21 L0 1529.21 L0 1712.98 Z"
+					<path d="M0 1153.98 L71.56 1153.98 L143.12 1153.98 L143.12 970.22 L71.56 970.22 L0 970.22 L0 1153.98 Z"
 							class="st4"/>
 				</g>
 			</g>
@@ -494,12 +494,12 @@
 				</g>
 				<g id="shape28-42" v:mID="28" v:groupContext="groupContent" v:layerMember="0">
 					<v:textBlock v:margins="rect(4,6,4,6)" v:tabSpace="42.5197"/>
-					<v:textRect cx="71.5599" cy="1693.84" width="143.12" height="38.2677"/>
-					<text x="36.35" y="1690.24" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DATABASE <tspan
+					<v:textRect cx="71.5599" cy="1134.85" width="143.12" height="38.2677"/>
+					<text x="36.35" y="1131.25" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DATABASE <tspan
 								x="38.18" dy="1.2em" class="st3">SERVICES</tspan></text>				</g>
 			</g>
 		</g>
-		<g id="group46-47" transform="translate(575.094,-1195.09)" v:mID="46" v:groupContext="group" v:layerMember="0">
+		<g id="group46-47" transform="translate(529.576,-829.843)" v:mID="46" v:groupContext="group" v:layerMember="0">
 			<v:userDefs>
 				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
 				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
@@ -572,7 +572,7 @@
 					</v:userDefs>
 				</g>
 				<g id="shape47-51" v:mID="47" v:groupContext="groupContent" v:layerMember="0">
-					<path d="M0 1712.98 L91.05 1712.98 L182.09 1712.98 L182.09 1608.66 L91.05 1608.66 L0 1608.66 L0 1712.98 Z"
+					<path d="M0 1153.98 L91.05 1153.98 L182.09 1153.98 L182.09 1049.67 L91.05 1049.67 L0 1049.67 L0 1153.98 Z"
 							class="st6"/>
 				</g>
 			</g>
@@ -641,17 +641,17 @@
 				</g>
 				<g id="shape49-57" v:mID="49" v:groupContext="groupContent" v:layerMember="0">
 					<v:textBlock v:margins="rect(4,6,4,6)" v:tabSpace="42.5197" v:verticalAlign="0"/>
-					<v:textRect cx="91.0474" cy="1700.22" width="182.1" height="25.5118"/>
-					<text x="35.66" y="1702.26" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Command Handler</text>				</g>
+					<v:textRect cx="91.0474" cy="1141.23" width="182.1" height="25.5118"/>
+					<text x="35.66" y="1143.27" class="st5" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Command Handler</text>				</g>
 			</g>
 		</g>
-		<g id="shape1-61" v:mID="1" v:groupContext="shape" transform="translate(1006.94,-600.328)">
+		<g id="shape1-61" v:mID="1" v:groupContext="shape" transform="translate(961.422,-235.084)">
 			<title>工作表.1</title>
 			<desc>Azure Speech-to-text</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
-			<v:textRect cx="33.0087" cy="1712.98" width="66.02" height="0"/>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="66.0174" height="61.7953" class="st7"/>
-			<image x="0" y="1651.18" width="66.0174" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+			<v:textRect cx="33.0087" cy="1153.98" width="66.02" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="66.0174" height="61.7953" class="st7"/>
+			<image x="0" y="1092.19" width="66.0174" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
 						iVBORw0KGgoAAAANSUhEUgAAAC8AAAApCAYAAAClfnCxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2H
 						AY/l8WUAAALDSURBVFhH7Zi9T5NRFIf9N7Aq5u2LNEVIv6TSSNOYaFJskbakKia1JZiIJXw5KHEErIZRE02kg0N10H9AUzcTNXFxcEEG
 						WGDEQQ1Ox/fcyml7vX2/Sal2eIb33JN7nvxyewn3kONwB7Qqbflm8e/KR913YbTvYR3dx7zCXivgnvwcnC3qrUVV/nZoHbK+l3Wb6pUP
@@ -663,16 +663,16 @@
 						8iKsnHn+nhfdNkYwLL93z5+ZKFDNbPKDuXss+UhikWpGMCyPyO7qX1fE7D2P8HsZwZQ8j9nkrWKPvMl73ir7ljyKt0zyWvKe3DTrSZbW
 						qMcqtsgjTk/1/1eEl0fc5xPg7Kvvs4KqPD4/4DOEaE0Lkbxe8PXAlnebZsjb9uj0X8oPb+w2Vx5fzGrBVyy9L2i9mevgnVkQrvHgnvws
 						y/IHnbZ8s2jLN4cO+A2nq4ZgR5Z17AAAAABJRU5ErkJggg=="/>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="66.0174" height="61.7953" class="st7"/>
-			<text x="17.33" y="1727.78" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Azure <tspan
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="66.0174" height="61.7953" class="st7"/>
+			<text x="17.33" y="1168.78" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Azure <tspan
 						x="10.66" dy="1.2em" class="st3">Speech</tspan>-<tspan x="16.34" dy="1.2em" class="st3">to</tspan>-text</text>		</g>
-		<g id="shape2-68" v:mID="2" v:groupContext="shape" transform="translate(1005.67,-918.148)">
+		<g id="shape2-68" v:mID="2" v:groupContext="shape" transform="translate(960.147,-552.904)">
 			<title>工作表.2</title>
 			<desc>Azure Cosmos DB</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
-			<v:textRect cx="33.0087" cy="1712.98" width="66.02" height="0"/>
-			<rect v:rectContext="foreign" x="0" y="1649.2" width="66.0174" height="63.7795" class="st7"/>
-			<image x="0" y="1649.2" width="66.0174" height="63.7795" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+			<v:textRect cx="33.0087" cy="1153.98" width="66.02" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="1090.2" width="66.0174" height="63.7795" class="st7"/>
+			<image x="0" y="1090.2" width="66.0174" height="63.7795" preserveAspectRatio="none" xlink:href="data:image/png;base64,
 						iVBORw0KGgoAAAANSUhEUgAAAhMAAAHiCAYAAABShU4FAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2H
 						AY/l8WUAAP+lSURBVHhe7P33mxzV2e0PP+fYIM10rKpOk5TDaDQahVEWIucklHPOBAO2wdg4YBswGUwQyuQMCqPJCqAsIQnlQJAIBuzn
 						Oedc3/c/WO9ae3dLAsYYIRsk2D+sq7urq6qrq7rr/ux73+G/YrEYnJycnJycnJy+rRxMODk5OTk5OZ2UHEw4OTk5OTk5nZQcTDg5OTk5
@@ -2755,16 +2755,16 @@
 						D49jgicTHh4eHh4eHscETyY8PDw8PDw8jgmeTHh4eHh4eHgcEzyZ8PDw8PDw8DgmeDLh4eHh4eHhcUzwZMLDw8PDw8PjmODJhIeHh4eH
 						h8cxwZMJDw8PDw8Pj2OCJxMeHh4eHh4exwRPJjw8PDw8PDyOCZ5MeHh4eHh4eBwTPJnw8PDw8PDwOCZ4MuHh4eHh4eFxTPBkwsPDw8PD
 						w+OY4MmEh4eHh4eHxzEgg/8fwcoB067m528AAAAASUVORK5CYII="/>
-			<rect v:rectContext="foreign" x="0" y="1649.2" width="66.0174" height="63.7795" class="st7"/>
-			<text x="17.33" y="1727.78" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Azure <tspan x="11"
+			<rect v:rectContext="foreign" x="0" y="1090.2" width="66.0174" height="63.7795" class="st7"/>
+			<text x="17.33" y="1168.78" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Azure <tspan x="11"
 						dy="1.2em" class="st3">Cosmos </tspan><tspan x="24.67" dy="1.2em" class="st3">DB</tspan></text>		</g>
-		<g id="shape3-75" v:mID="3" v:groupContext="shape" transform="translate(279.44,-902.424)">
+		<g id="shape3-75" v:mID="3" v:groupContext="shape" transform="translate(169.504,-769.096)">
 			<title>工作表.3</title>
 			<desc>Telegram Chat Bot Panel</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
-			<v:textRect cx="33.0087" cy="1712.98" width="66.02" height="0"/>
-			<rect v:rectContext="foreign" x="0" y="1646.96" width="66.0174" height="66.0174" class="st7"/>
-			<image x="0" y="1646.96" width="66.0174" height="66.0174" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+			<v:textRect cx="33.0087" cy="1153.98" width="66.02" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="1087.97" width="66.0174" height="66.0174" class="st7"/>
+			<image x="0" y="1087.97" width="66.0174" height="66.0174" preserveAspectRatio="none" xlink:href="data:image/png;base64,
 						iVBORw0KGgoAAAANSUhEUgAAAeAAAAHgCAYAAAB91L6VAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2H
 						AY/l8WUAAElmSURBVHhe7d0HeFNVGwfwJN177z1oKVDKFhUBEXEwFD4XDkSGCqIgMkRAQGXvPWRvyhQQZE/Zu1BaaEtLoazS0kELLXC/
 						nHAqKG9p0mbcm/z/z/N7nu8zaXLHuecld5wjQxBE91FYWttYefoH20fWqu9S7/VWHq++1867RYfv/D/s8XNQh5/HhX07dm5E35mrooYs
@@ -3008,16 +3008,16 @@
 						9pi/l60Lu5nN/pUPuyrXsYWFX0R1FFkEQRBEEpGbW1qZOXv5WwZWrWNd9ZW3beu8/TEr1o5vdO7v/G7P0a5tB//Oro16fDNzq+d3s3d6
 						9Vl+zPunNXE+gzYl+w7bdZ390i7hP+5o4X8LJvtvT7+H/Q37W/YZ7LPYZ7LPZt/Bvot9J/tuVlTZsrBlsgyoUpstI1tWvtgIgugsMtn/
 						AWPBfDGhZe33AAAAAElFTkSuQmCC"/>
-			<rect v:rectContext="foreign" x="0" y="1646.96" width="66.0174" height="66.0174" class="st7"/>
-			<text x="7.67" y="1727.78" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Telegram <tspan
+			<rect v:rectContext="foreign" x="0" y="1087.97" width="66.0174" height="66.0174" class="st7"/>
+			<text x="7.67" y="1168.78" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Telegram <tspan
 						x="9.66" dy="1.2em" class="st3">Chat Bot </tspan><tspan x="17.66" dy="1.2em" class="st3">Panel</tspan></text>		</g>
-		<g id="shape4-82" v:mID="4" v:groupContext="shape" transform="translate(1006.94,-723.872)">
+		<g id="shape4-82" v:mID="4" v:groupContext="shape" transform="translate(961.422,-358.628)">
 			<title>工作表.4</title>
 			<desc>OpenAI APIs</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
-			<v:textRect cx="33.0087" cy="1712.98" width="66.02" height="0"/>
-			<rect v:rectContext="foreign" x="0" y="1649.2" width="66.0174" height="63.7795" class="st7"/>
-			<image x="0" y="1649.2" width="66.0174" height="63.7795" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+			<v:textRect cx="33.0087" cy="1153.98" width="66.02" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="1090.2" width="66.0174" height="63.7795" class="st7"/>
+			<image x="0" y="1090.2" width="66.0174" height="63.7795" preserveAspectRatio="none" xlink:href="data:image/png;base64,
 						iVBORw0KGgoAAAANSUhEUgAACaoAAAnECAYAAADhXcH+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2H
 						AY/l8WUAAP+lSURBVHhe7N0J+O9Tvff/vW3DNkebkFIiU25JRenkpDmVkyQpzXMqSZPqNCiU0glHaY6kJEURpUIl5yQkGYtQ5nnYhj38
 						/691nA7ytv1++zd9P9/P43Fdz+u+rvu670T2Z631+azvWtMAAAAAOmiVtE7aNP1rek56QdomvTTtmF6b3pR2Su9K70sfSh9Ne6S90+fT
@@ -4787,16 +4787,16 @@
 						uAvLpJXTPdK9U9votmlqG7IeldrmrGemHdJLUtu09frUNsC9J30gtQ1dH0t7p0+n/VK70vSg9NXUThj7dmpXnP4w/U/6SWpXX9629p8d
 						mX6QvpPaf+/gdEBqf8x90yfSh1P78747tb+ON6XXpVeltjnvxan99T47PSO16zTbqWbt76ddq7l+aifWAQAAAHTQjBn/D3KWt8zxt2eb
 						AAAAAElFTkSuQmCC"/>
-			<rect v:rectContext="foreign" x="0" y="1649.2" width="66.0174" height="63.7795" class="st7"/>
-			<text x="12.66" y="1727.78" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>OpenAI <tspan
+			<rect v:rectContext="foreign" x="0" y="1090.2" width="66.0174" height="63.7795" class="st7"/>
+			<text x="12.66" y="1168.78" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>OpenAI <tspan
 						x="20.34" dy="1.2em" class="st3">APIs</tspan></text>		</g>
-		<g id="shape32-88" v:mID="32" v:groupContext="shape" transform="translate(613.347,-730.392)">
+		<g id="shape32-88" v:mID="32" v:groupContext="shape" transform="translate(567.828,-365.148)">
 			<title>工作表.32</title>
 			<desc>AI Agent</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
-			<v:textRect cx="34.4962" cy="1712.98" width="69" height="0"/>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="68.9924" height="61.7953" class="st7"/>
-			<image x="0" y="1651.18" width="68.9924" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+			<v:textRect cx="34.4962" cy="1153.98" width="69" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="68.9924" height="61.7953" class="st7"/>
+			<image x="0" y="1092.19" width="68.9924" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
 						iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2H
 						AY/l8WUAABgUSURBVHhe7Z0JFG1VWcfJtLQytRwKlbIyE0m0TE0gtDJsEE0lsSzLUqNBSnJCKxU1bTAiVBTDBoFCs0lLyykRGy1FTahQ
 						syLKoRTHzOr/W3J5x7v+e5+9z3TPfvf7rfVb66337jn33PvOd88evv3tQ4IgCIIgCIIgCIIgCIIgCIIgCIIgCGr5HHlf+QR5lvzVMFyB
@@ -4878,15 +4878,15 @@
 						SvcmyHqFCJJgbRAclERy9yyeICeDZaO58po8SXiU0a4Lw13LvZh6ciC1yigvOymlJSzDcO3OsmErJS1rCyiH4dq8Qs42x0Q5/CGVzMNw
 						DdK0OkbOCivZ4kkStiZPjtmDYwP1o8gsrSn3H4a7kHuUPsdOUncYCWC4jDFlJl7ciEIYLi33Ivck9+bko1VBEARBEARBEARBEARBEARB
 						EARBEBzUHHLI/wOXsUQ+EUvQiQAAAABJRU5ErkJggg=="/>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="68.9924" height="61.7953" class="st7"/>
-			<text x="10.5" y="1727.78" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>AI Agent</text>		</g>
-		<g id="shape33-93" v:mID="33" v:groupContext="shape" transform="translate(613.347,-922.683)">
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="68.9924" height="61.7953" class="st7"/>
+			<text x="10.5" y="1168.78" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>AI Agent</text>		</g>
+		<g id="shape33-93" v:mID="33" v:groupContext="shape" transform="translate(567.828,-557.439)">
 			<title>工作表.33</title>
 			<desc>DB Manager</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
-			<v:textRect cx="34.4962" cy="1712.98" width="69" height="0"/>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="68.9924" height="61.7953" class="st7"/>
-			<image x="0" y="1651.18" width="68.9924" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+			<v:textRect cx="34.4962" cy="1153.98" width="69" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="68.9924" height="61.7953" class="st7"/>
+			<image x="0" y="1092.19" width="68.9924" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
 						iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2H
 						AY/l8WUAABgUSURBVHhe7Z0JFG1VWcfJtLQytRwKlbIyE0m0TE0gtDJsEE0lsSzLUqNBSnJCKxU1bTAiVBTDBoFCs0lLyykRGy1FTahQ
 						syLKoRTHzOr/W3J5x7v+e5+9z3TPfvf7rfVb66337jn33PvOd88evv3tQ4IgCIIgCIIgCIIgCIIgCIIgCIIgCGr5HHlf+QR5lvzVMFyB
@@ -4968,15 +4968,15 @@
 						SvcmyHqFCJJgbRAclERy9yyeICeDZaO58po8SXiU0a4Lw13LvZh6ciC1yigvOymlJSzDcO3OsmErJS1rCyiH4dq8Qs42x0Q5/CGVzMNw
 						DdK0OkbOCivZ4kkStiZPjtmDYwP1o8gsrSn3H4a7kHuUPsdOUncYCWC4jDFlJl7ciEIYLi33Ivck9+bko1VBEARBEARBEARBEARBEARB
 						EARBEBzUHHLI/wOXsUQ+EUvQiQAAAABJRU5ErkJggg=="/>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="68.9924" height="61.7953" class="st7"/>
-			<text x="4.5" y="1727.78" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DB Manager</text>		</g>
-		<g id="shape34-98" v:mID="34" v:groupContext="shape" transform="translate(613.347,-1093.32)">
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="68.9924" height="61.7953" class="st7"/>
+			<text x="4.5" y="1168.78" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DB Manager</text>		</g>
+		<g id="shape34-98" v:mID="34" v:groupContext="shape" transform="translate(567.828,-728.079)">
 			<title>工作表.34</title>
 			<desc>Bot Manager</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
-			<v:textRect cx="34.4962" cy="1712.98" width="69" height="0"/>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="68.9924" height="61.7953" class="st7"/>
-			<image x="0" y="1651.18" width="68.9924" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+			<v:textRect cx="34.4962" cy="1153.98" width="69" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="68.9924" height="61.7953" class="st7"/>
+			<image x="0" y="1092.19" width="68.9924" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
 						iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2H
 						AY/l8WUAABgUSURBVHhe7Z0JFG1VWcfJtLQytRwKlbIyE0m0TE0gtDJsEE0lsSzLUqNBSnJCKxU1bTAiVBTDBoFCs0lLyykRGy1FTahQ
 						syLKoRTHzOr/W3J5x7v+e5+9z3TPfvf7rfVb66337jn33PvOd88evv3tQ4IgCIIgCIIgCIIgCIIgCIIgCIIgCGr5HHlf+QR5lvzVMFyB
@@ -5058,13 +5058,13 @@
 						SvcmyHqFCJJgbRAclERy9yyeICeDZaO58po8SXiU0a4Lw13LvZh6ciC1yigvOymlJSzDcO3OsmErJS1rCyiH4dq8Qs42x0Q5/CGVzMNw
 						DdK0OkbOCivZ4kkStiZPjtmDYwP1o8gsrSn3H4a7kHuUPsdOUncYCWC4jDFlJl7ciEIYLi33Ivck9+bko1VBEARBEARBEARBEARBEARB
 						EARBEBzUHHLI/wOXsUQ+EUvQiQAAAABJRU5ErkJggg=="/>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="68.9924" height="61.7953" class="st7"/>
-			<text x="25.5" y="1727.78" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Bot <tspan x="13.5"
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="68.9924" height="61.7953" class="st7"/>
+			<text x="25.5" y="1168.78" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Bot <tspan x="13.5"
 						dy="1.2em" class="st3">Manager</tspan></text>		</g>
-		<g id="shape35-104" v:mID="35" v:groupContext="shape" transform="translate(583.598,-1203.59)">
+		<g id="shape35-104" v:mID="35" v:groupContext="shape" transform="translate(538.08,-838.346)">
 			<title>工作表.35</title>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="68.9924" height="61.7953" class="st7"/>
-			<image x="0" y="1651.18" width="68.9924" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="68.9924" height="61.7953" class="st7"/>
+			<image x="0" y="1092.19" width="68.9924" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
 						iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2H
 						AY/l8WUAABgUSURBVHhe7Z0JFG1VWcfJtLQytRwKlbIyE0m0TE0gtDJsEE0lsSzLUqNBSnJCKxU1bTAiVBTDBoFCs0lLyykRGy1FTahQ
 						syLKoRTHzOr/W3J5x7v+e5+9z3TPfvf7rfVb66337jn33PvOd88evv3tQ4IgCIIgCIIgCIIgCIIgCIIgCIIgCGr5HHlf+QR5lvzVMFyB
@@ -5146,15 +5146,15 @@
 						SvcmyHqFCJJgbRAclERy9yyeICeDZaO58po8SXiU0a4Lw13LvZh6ciC1yigvOymlJSzDcO3OsmErJS1rCyiH4dq8Qs42x0Q5/CGVzMNw
 						DdK0OkbOCivZ4kkStiZPjtmDYwP1o8gsrSn3H4a7kHuUPsdOUncYCWC4jDFlJl7ciEIYLi33Ivck9+bko1VBEARBEARBEARBEARBEARB
 						EARBEBzUHHLI/wOXsUQ+EUvQiQAAAABJRU5ErkJggg=="/>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="68.9924" height="61.7953" class="st7"/>
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="68.9924" height="61.7953" class="st7"/>
 		</g>
-		<g id="shape36-108" v:mID="36" v:groupContext="shape" transform="translate(613.347,-604.863)">
+		<g id="shape36-108" v:mID="36" v:groupContext="shape" transform="translate(567.828,-239.619)">
 			<title>工作表.36</title>
 			<desc>Speech Service</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
-			<v:textRect cx="34.4962" cy="1712.98" width="69" height="0"/>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="68.9924" height="61.7953" class="st7"/>
-			<image x="0" y="1651.18" width="68.9924" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+			<v:textRect cx="34.4962" cy="1153.98" width="69" height="0"/>
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="68.9924" height="61.7953" class="st7"/>
+			<image x="0" y="1092.19" width="68.9924" height="61.7953" preserveAspectRatio="none" xlink:href="data:image/png;base64,
 						iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2H
 						AY/l8WUAABgUSURBVHhe7Z0JFG1VWcfJtLQytRwKlbIyE0m0TE0gtDJsEE0lsSzLUqNBSnJCKxU1bTAiVBTDBoFCs0lLyykRGy1FTahQ
 						syLKoRTHzOr/W3J5x7v+e5+9z3TPfvf7rfVb66337jn33PvOd88evv3tQ4IgCIIgCIIgCIIgCIIgCIIgCIIgCGr5HHlf+QR5lvzVMFyB
@@ -5236,72 +5236,79 @@
 						SvcmyHqFCJJgbRAclERy9yyeICeDZaO58po8SXiU0a4Lw13LvZh6ciC1yigvOymlJSzDcO3OsmErJS1rCyiH4dq8Qs42x0Q5/CGVzMNw
 						DdK0OkbOCivZ4kkStiZPjtmDYwP1o8gsrSn3H4a7kHuUPsdOUncYCWC4jDFlJl7ciEIYLi33Ivck9+bko1VBEARBEARBEARBEARBEARB
 						EARBEBzUHHLI/wOXsUQ+EUvQiQAAAABJRU5ErkJggg=="/>
-			<rect v:rectContext="foreign" x="0" y="1651.18" width="68.9924" height="61.7953" class="st7"/>
-			<text x="16.5" y="1727.78" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Speech <tspan
+			<rect v:rectContext="foreign" x="0" y="1092.19" width="68.9924" height="61.7953" class="st7"/>
+			<text x="16.5" y="1168.78" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Speech <tspan
 						x="13.5" dy="1.2em" class="st3">Service</tspan></text>		</g>
-		<g id="shape37-114" v:mID="37" v:groupContext="shape" transform="translate(673.851,-1207.08)">
+		<g id="shape37-114" v:mID="37" v:groupContext="shape" transform="translate(628.332,-841.832)">
 			<title>工作表.37</title>
 			<desc>Cache for User States</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="37.4173" cy="1689.59" width="74.84" height="46.7717"/>
-			<rect x="0" y="1666.2" width="74.8346" height="46.7717" class="st6"/>
-			<text x="11.4" y="1685.99" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Cache for <tspan
+			<v:textRect cx="37.4173" cy="1130.6" width="74.84" height="46.7717"/>
+			<rect x="0" y="1107.21" width="74.8346" height="46.7717" class="st6"/>
+			<text x="11.4" y="1127" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Cache for <tspan
 						x="6.07" dy="1.2em" class="st3">User States</tspan></text>		</g>
-		<g id="shape41-118" v:mID="41" v:groupContext="shape" v:layerMember="1" transform="translate(682.339,-945.218)">
+		<g id="shape41-118" v:mID="41" v:groupContext="shape" v:layerMember="1" transform="translate(636.821,-579.974)">
 			<title>动态连接线.41</title>
 			<desc>Memory Persistence &#38; Recovery</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="161.663" cy="1705.89" width="156.39" height="20.0036"/>
-			<path d="M0 1705.89 L317.6 1705.89" class="st11"/>
-			<rect v:rectContext="textBkgnd" x="87.4712" y="1699.89" width="145.602" height="12.0001" class="st13"/>
-			<text x="87.47" y="1708.89" class="st14" v:langID="2052"><v:paragraph/><v:tabList/>Memory Persistence &#38; Recovery</text>		</g>
-		<g id="shape43-126" v:mID="43" v:groupContext="shape" v:layerMember="1" transform="translate(682.339,-751.935)">
+			<v:textRect cx="161.663" cy="1146.9" width="156.39" height="20.0036"/>
+			<path d="M0 1146.9 L317.6 1146.9" class="st11"/>
+			<rect v:rectContext="textBkgnd" x="88.8621" y="1140.9" width="145.602" height="12.0001" class="st13"/>
+			<text x="88.86" y="1149.9" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Memory Persistence &#38; Recovery</text>		</g>
+		<g id="shape43-126" v:mID="43" v:groupContext="shape" v:layerMember="1" transform="translate(636.821,-386.691)">
 			<title>动态连接线</title>
 			<desc>GPT Assistant Interactions</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="162.301" cy="1705.89" width="129.17" height="20.0036"/>
-			<path d="M5.36 1705.89 L5.72 1705.89 L318.88 1705.89" class="st15"/>
-			<rect v:rectContext="textBkgnd" x="101.72" y="1699.89" width="118.381" height="12.0001" class="st13"/>
-			<text x="101.72" y="1708.89" class="st14" v:langID="2052"><v:paragraph/><v:tabList/>GPT Assistant Interactions</text>		</g>
-		<g id="shape44-136" v:mID="44" v:groupContext="shape" v:layerMember="1" transform="translate(682.339,-626.406)">
+			<v:textRect cx="162.301" cy="1146.9" width="129.17" height="20.0036"/>
+			<path d="M5.36 1146.9 L5.72 1146.9 L318.88 1146.9" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="103.11" y="1140.9" width="118.381" height="12.0001" class="st13"/>
+			<text x="103.11" y="1149.9" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>GPT Assistant Interactions</text>		</g>
+		<g id="shape44-136" v:mID="44" v:groupContext="shape" v:layerMember="1" transform="translate(636.821,-261.162)">
 			<title>动态连接线.44</title>
 			<desc>Speech Audio Transcription</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="162.301" cy="1705.89" width="133.64" height="20.0036"/>
-			<path d="M5.36 1705.89 L5.72 1705.89 L318.88 1705.89" class="st15"/>
-			<rect v:rectContext="textBkgnd" x="99.486" y="1699.89" width="122.848" height="12.0001" class="st13"/>
-			<text x="99.49" y="1708.89" class="st14" v:langID="2052"><v:paragraph/><v:tabList/>Speech Audio Transcription</text>		</g>
-		<g id="shape53-145" v:mID="53" v:groupContext="shape" v:layerMember="1" transform="translate(575.094,-1247.24)">
+			<v:textRect cx="162.301" cy="1146.9" width="133.64" height="20.0036"/>
+			<path d="M5.36 1146.9 L5.72 1146.9 L318.88 1146.9" class="st15"/>
+			<rect v:rectContext="textBkgnd" x="100.877" y="1140.9" width="122.848" height="12.0001" class="st13"/>
+			<text x="100.88" y="1149.9" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Speech Audio Transcription</text>		</g>
+		<g id="shape53-145" v:mID="53" v:groupContext="shape" v:layerMember="1" transform="translate(529.576,-882)">
 			<title>动态连接线.53</title>
-			<path d="M0 1712.98 L-46.79 1712.98 L-46.79 2006.64 L-156.35 2006.64" class="st16"/>
+			<path d="M0 1153.98 L-46.79 1153.98 L-46.79 1215.73 L-220.76 1215.73" class="st16"/>
 		</g>
-		<g id="shape54-148" v:mID="54" v:groupContext="shape" v:layerMember="1" transform="translate(613.347,-1124.22)">
+		<g id="shape54-148" v:mID="54" v:groupContext="shape" v:layerMember="1" transform="translate(567.828,-758.976)">
 			<title>动态连接线.54</title>
-			<path d="M0 1712.98 L-85.04 1712.98 L-85.04 1883.62 L-194.6 1883.62" class="st16"/>
+			<path d="M0 1153.98 L-85.04 1153.98 L-85.04 1092.71 L-259.02 1092.71" class="st16"/>
 		</g>
-		<g id="shape55-151" v:mID="55" v:groupContext="shape" v:layerMember="1" transform="translate(613.347,-960.948)">
-			<title>动态连接线.55</title>
-			<path d="M0 1719.78 L-194.6 1720.34" class="st16"/>
-		</g>
-		<g id="shape56-154" v:mID="56" v:groupContext="shape" v:layerMember="1" transform="translate(613.347,-761.29)">
+		<g id="shape56-151" v:mID="56" v:groupContext="shape" v:layerMember="1" transform="translate(567.828,-396.046)">
 			<title>动态连接线.56</title>
-			<path d="M0 1712.98 L-85.04 1712.98 L-85.04 1520.69 L-194.6 1520.69" class="st16"/>
+			<path d="M0 1153.98 L-85.04 1153.98 L-85.04 729.78 L-259.02 729.78" class="st16"/>
 		</g>
-		<g id="shape57-157" v:mID="57" v:groupContext="shape" v:layerMember="1" transform="translate(613.347,-635.761)">
+		<g id="shape57-154" v:mID="57" v:groupContext="shape" v:layerMember="1" transform="translate(567.828,-270.517)">
 			<title>动态连接线.57</title>
-			<path d="M0 1712.98 L-85.04 1712.98 L-85.04 1395.16 L-194.6 1395.16" class="st16"/>
+			<path d="M0 1153.98 L-85.04 1153.98 L-85.04 604.25 L-259.02 604.25" class="st16"/>
 		</g>
-		<g id="shape59-160" v:mID="59" v:groupContext="shape" transform="translate(499.465,-561.827)">
+		<g id="shape59-157" v:mID="59" v:groupContext="shape" transform="translate(453.946,-196.583)">
 			<title>工作表.59</title>
-			<path d="M0 1712.98 L265.89 1712.98 L265.89 921.26 L0 921.26 L0 1712.98 Z" class="st17"/>
+			<path d="M0 1153.98 L265.89 1153.98 L265.89 362.27 L0 362.27 L0 1153.98 Z" class="st17"/>
 		</g>
-		<g id="shape66-162" v:mID="66" v:groupContext="shape" transform="translate(556.409,-1318.11)">
+		<g id="shape66-159" v:mID="66" v:groupContext="shape" transform="translate(510.891,-952.866)">
 			<title>工作表.66</title>
 			<desc>BACKEND SERVICES</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="76" cy="1702.98" width="152" height="20"/>
-			<rect x="0" y="1692.98" width="152" height="20" class="st7"/>
-			<text x="32.49" y="1697.58" class="st18" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>BACKEND <tspan
+			<v:textRect cx="76" cy="1143.98" width="152" height="20"/>
+			<rect x="0" y="1133.98" width="152" height="20" class="st7"/>
+			<text x="32.49" y="1138.58" class="st18" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>BACKEND <tspan
 						x="30.49" dy="1.2em" class="st3">SERVICES</tspan></text>		</g>
+		<g id="shape68-163" v:mID="68" v:groupContext="shape" v:layerMember="1" transform="translate(567.828,-588.337)">
+			<title>动态连接线.68</title>
+			<path d="M0 1153.98 L-85.04 1153.98 L-85.04 922.07 L-259.02 922.07" class="st16"/>
+		</g>
+		<g id="shape69-166" v:mID="69" v:groupContext="shape" transform="translate(308.583,-825.307)">
+			<title>工作表.69</title>
+			<desc>Telegram Chatbot API</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="76" cy="1143.98" width="152" height="20"/>
+			<rect x="0" y="1133.98" width="152" height="20" class="st7"/>
+			<text x="16.64" y="1147.58" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Telegram Chatbot API</text>		</g>
 	</g>
 </svg>
