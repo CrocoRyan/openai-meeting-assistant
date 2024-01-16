@@ -5,4 +5,5 @@ class FileType(Enum):
     PHOTO = "photo"
     VIDEO = "video"
     AUDIO = "audio"
+    TEXT = "text"
     OTHERS = "others"

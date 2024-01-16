@@ -9,7 +9,7 @@ from app.MessageHandler import MessageHandler
 from app.SpeechService import SpeechService
 from app.AssistantDBManager import AssistantDBManager
 import os
-from app.routes import bp as main_bp
+from app.Routes import bp as main_bp
 
 
 def create_app():
