@@ -11,9 +11,7 @@ OpenAI's GPT models to deliver accurate and concise meeting summaries.
 - **Real-Time Transcription**: Leverages Azure's Speech-to-Text service to transcribe meetings in real-time.
 - **AI Summarization**: Uses OpenAI's GPT models to generate summaries of the transcribed text, focusing on key
   points and decisions.
-- **Multi-Conversation Support**: Capable of managing multiple meeting minutes assistant sessions simultaneously.
-- **Persistent Storage**: GPT's Conversation memory and summary records are stored securely in a Azure Cosmos DB database for future
-  reference.
+- **Persistent Storage & Conversation History Management**: NoSQL(CosmosDB or MongoDB) integration to manage multiple users, threads, and conversation history. Thread management & tracking for every user interaction
 - **Interactive Telegram Bot**: A user-friendly chatbot interface on Telegram to interact with users, handle requests,
   and deliver transcriptions and summaries.
 
