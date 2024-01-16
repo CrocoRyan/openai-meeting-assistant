@@ -1,5 +1,6 @@
-import pymongo
 from datetime import datetime
+
+import pymongo
 
 
 class AssistantDBManager:
@@ -28,7 +29,8 @@ class AssistantDBManager:
 
     def get_user_latest_index(self, user_id):
         # Retrieve user data based on user ID from the assistants collection
-        result_cursor = self.assistants_collection.find({"userID": user_id},{'innerIndex':1}).sort([("innerIndex", -1)]).limit(1)
+        result_cursor = self.assistants_collection.find({"userID": user_id}, {'innerIndex': 1}).sort(
+            [("innerIndex", -1)]).limit(1)
         latest_index = next(result_cursor, None)
 
         if latest_index is None:
@@ -40,12 +42,12 @@ class AssistantDBManager:
         # Insert new data into the assistants collection
         time_stamp = datetime.fromtimestamp(time_stamp)
         # index=self.get_user_latest_index(user_id)+1
-        index=self.get_user_latest_index(user_id)+1
+        index = self.get_user_latest_index(user_id) + 1
         new_data = {
             "userID": user_id,
             "threadID": thread_id,
-            "createdTime":time_stamp,
-            "innerIndex":index,
+            "createdTime": time_stamp,
+            "innerIndex": index,
             "summary": None
         }
         self.assistants_collection.insert_one(new_data)
@@ -53,10 +55,12 @@ class AssistantDBManager:
 
     def get_user_snapshots(self, user_id):
         # Retrieve user data based on user ID from the assistants collection
-        result= self.assistants_collection.find({"userID": user_id}, {'innerIndex': 1, 'createdTime': 1, 'threadID':1})
-            # .sort([("innerIndex", -1)])
+        result = self.assistants_collection.find({"userID": user_id},
+                                                 {'innerIndex': 1, 'createdTime': 1, 'threadID': 1})
+        # .sort([("innerIndex", -1)])
         return result if result.count() > 0 else None
-    def get_doc_by_thread(self,thread_id):
+
+    def get_doc_by_thread(self, thread_id):
         return self.assistants_collection.find_one({"threadID": thread_id})
 
     def get_user_data(self, user_id):
@@ -64,9 +68,9 @@ class AssistantDBManager:
         user_data = self.assistants_collection.find_one({"userID": user_id})
         return user_data
 
-    def append_message(self, user_id,thread_id, message, message_type):
+    def append_message(self, user_id, thread_id, message, message_type):
         # Find the document for the user
-        user_doc = self.assistants_collection.find_one({"userID": user_id,"threadID": thread_id})
+        user_doc = self.assistants_collection.find_one({"userID": user_id, "threadID": thread_id})
         timestamp = datetime.utcnow()
 
         if user_doc:
@@ -101,7 +105,6 @@ class AssistantDBManager:
         else:
             # If the user document is not found, return False
             return False
-
 
 # if __name__ == '__main__':
 #     as1= AssistantDBManager(connection_string="mongodb://localhost:27017")

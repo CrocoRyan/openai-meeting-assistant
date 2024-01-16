@@ -1,19 +1,14 @@
-import os
 import azure.cognitiveservices.speech as speechsdk
-from azure.cognitiveservices.speech import SpeechConfig
-
-from flask import current_app
 
 from app.models import AzureAudioStreamCallback
 from utils.audio_utils import convert_audio_to_standard_stream
 
 
 class SpeechService:
-    def __init__(self,subscription,region):
+    def __init__(self, subscription, region):
         # self.speech_config.speech_recognition_language = language_code
-        self.speech_config=speechsdk.SpeechConfig(subscription, region)
+        self.speech_config = speechsdk.SpeechConfig(subscription, region)
         # self.speech_config =current_app.speech_config
-
 
     def recognize_speech_from_file(self, filename, language_code="en-US"):
         self.speech_config.speech_recognition_language = language_code
@@ -25,7 +20,6 @@ class SpeechService:
         audio_config = speechsdk.audio.AudioConfig(stream=stream)
         speech_recognizer = speechsdk.SpeechRecognizer(speech_config=self.speech_config, audio_config=audio_config)
         return self.perform_recognition(speech_recognizer)
-
 
     def perform_recognition(self, recognizer):
         print("Starting speech recognition...")
@@ -48,5 +42,5 @@ class SpeechService:
 #     speech_manager = SpeechManager(language="zh-CN")
 #     print(speech_manager.recognize_speech_from_file("./speech-to-text-sample-chinese.wav"))
 
-    # For recognizing speech from microphone, uncomment the following line:
-    # print(speech_manager.recognize_speech_from_microphone())
+# For recognizing speech from microphone, uncomment the following line:
+# print(speech_manager.recognize_speech_from_microphone())

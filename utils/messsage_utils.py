@@ -10,14 +10,19 @@ def text_progress_bar(progress, total, bar_length=10):
     bar += "-" * (bar_length - filled_length)
 
     return f"[ {bar} ] {int(100 * (progress / total))}%"
-def split_gpt_text(message:str):
-    message=message.strip('"')
+
+
+def split_gpt_text(message: str):
+    message = message.strip('"')
     return message.split("\n")
+
 
 def is_callback(message):
     return message.get('callback_query') is not None
+
+
 def get_message_type(message):
-    message=message['message']
+    message = message['message']
     if message.get('text') is not None or message.get('callback_query') is not None:
         return FileType.TEXT
     if message.get('audio') is not None:

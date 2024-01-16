@@ -1,17 +1,15 @@
 import json
-from enum import Enum
 
 import requests
 
 from utils.constants import FileType
-
 from utils.file_utils import create_folder_if_not_exist
 from utils.messsage_utils import is_callback, get_message_type
 
 
 class BotManager:
-    def __init__(self,token):
-        self.bot_token=token
+    def __init__(self, token):
+        self.bot_token = token
 
     def tel_parse_message(self, message):
         if is_callback(message):
@@ -29,7 +27,7 @@ class BotManager:
 
         return chat_id, txt, time_stamp
 
-    def tel_send_message(self,chat_id, text):
+    def tel_send_message(self, chat_id, text):
         url = f'https://api.telegram.org/bot{self.bot_token}/sendMessage'
         payload = {
             'chat_id': chat_id,
@@ -39,9 +37,9 @@ class BotManager:
         r = requests.post(url, json=payload)
         return r
 
-    def tel_send_messages(self,chat_id, text_list):
+    def tel_send_messages(self, chat_id, text_list):
         for text in text_list:
-            self.tel_send_message(chat_id,text)
+            self.tel_send_message(chat_id, text)
 
     def tel_parse_non_text_message(self, message):
         print("message-->", message)
@@ -102,8 +100,7 @@ class BotManager:
     #                 except:
     #                     print("NO file found found-->>")
 
-
-    def tel_upload_file(self,file_id):
+    def tel_upload_file(self, file_id):
         url = f'https://api.telegram.org/bot{self.bot_token}/getFile?file_id={file_id}'
         a = requests.post(url)
         json_resp = json.loads(a.content)
@@ -138,8 +135,7 @@ class BotManager:
 
         return file_path
 
-
-    def tel_send_language_option(self,chat_id):
+    def tel_send_language_option(self, chat_id):
         url = f'https://api.telegram.org/bot{self.bot_token}/sendMessage'
 
         payload = {
@@ -160,7 +156,8 @@ class BotManager:
         }
         r = requests.post(url, json=payload)
         return r
-    def tel_send_gpt_entrance(self,chat_id,reply,mapping):
+
+    def tel_send_gpt_entrance(self, chat_id, reply, mapping):
         url = f'https://api.telegram.org/bot{self.bot_token}/sendMessage'
 
         payload = {

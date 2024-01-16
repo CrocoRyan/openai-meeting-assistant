@@ -1,9 +1,6 @@
-import ffmpeg
 import io
-import os
-import azure.cognitiveservices.speech as speechsdk
 
-from app.models.AzureAudioStreamCallback import AzureAudioStreamCallback
+import ffmpeg
 
 
 # Convert audio file to WAV format and return as a stream
@@ -15,8 +12,6 @@ def convert_audio_to_standard_stream(input_path):
         .run(capture_stdout=True, capture_stderr=True)
     )
     return io.BytesIO(out)
-
-
 
 # # Example usage
 # speech_config = speechsdk.SpeechConfig(subscription=os.environ.get('SPEECH_KEY'), region=os.environ.get('SPEECH_REGION'))

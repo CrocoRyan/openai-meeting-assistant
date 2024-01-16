@@ -1,15 +1,14 @@
 import json
+import os
 
 from flask import Flask
-from openai import OpenAI
 
 from app.AIAgent import AIAgent
+from app.AssistantDBManager import AssistantDBManager
 from app.BotManager import BotManager
 from app.MessageHandler import MessageHandler
-from app.SpeechService import SpeechService
-from app.AssistantDBManager import AssistantDBManager
-import os
 from app.Routes import bp as main_bp
+from app.SpeechService import SpeechService
 
 
 def create_app():

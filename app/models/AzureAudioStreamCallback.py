@@ -14,4 +14,3 @@ class AzureAudioStreamCallback(audio.PullAudioInputStreamCallback):
 
     def close(self):
         self._stream.close()
-
