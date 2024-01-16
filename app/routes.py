@@ -12,29 +12,9 @@ bp = Blueprint('main', __name__)
 def welcome():
     return "<h1>Welcome!</h1>"
 
-# @app.route('/recognize-from-file', methods=['POST'])
-# def recognize_from_file():
-#     if 'file' not in request.files:
-#         return "No file part", 400
-#
-#     file = request.files['file']
-#     if file.filename == '':
-#         return "No selected file", 400
-#
-#     # 你可能需要保存文件并提供正确的路径
-#     filename = './' + file.filename
-#     file.save(filename)
-#
-#     result = speech_manager.recognize_speech_from_file(filename)
-#     return jsonify(result=result)
-
 @bp.route('/health', methods=['GET'])
 def health_check():
-    # 在这里，你可以添加任何必要的健康检查逻辑
-    # 例如，检查数据库连接、外部服务的可用性等
-    # 如果一切正常，返回一个正常的响应
-
-    # 简单的响应，表明服务运行正常
+    # health check
     return jsonify(status="healthy", message="Service is up and running"), 200
 
 
@@ -62,7 +42,6 @@ def index():
                     #start a new thread
                     current_thread=current_app.ai_agent.create_thread(chat_id,time_stamp)
                     current_app.message_handler.set_thread_by_id(chat_id,current_thread)
-                # current_app.ai_agent.respond(chat_id,current_thread,txt)
 
 
                 current_app.ai_agent.respond(chat_id,current_thread,txt)
