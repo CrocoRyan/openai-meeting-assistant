@@ -9,10 +9,10 @@ OpenAI's GPT models to deliver accurate and concise meeting summaries.
 ### Key Features:
 
 - **Real-Time Transcription**: Leverages Azure's Speech-to-Text service to transcribe meetings in real-time.
-- **Intelligent Summarization**: Uses OpenAI's GPT models to generate summaries of the transcribed text, focusing on key
+- **AI Summarization**: Uses OpenAI's GPT models to generate summaries of the transcribed text, focusing on key
   points and decisions.
-- **Multi-User Support**: Capable of managing multiple user sessions and meeting threads simultaneously.
-- **Persistent Storage**: Conversation threads and summaries are stored securely in a MongoDB database for future
+- **Multi-Conversation Support**: Capable of managing multiple meeting minutes assistant sessions simultaneously.
+- **Persistent Storage**: GPT's Conversation memory and summary records are stored securely in a Azure Cosmos DB database for future
   reference.
 - **Interactive Telegram Bot**: A user-friendly chatbot interface on Telegram to interact with users, handle requests,
   and deliver transcriptions and summaries.
@@ -21,18 +21,21 @@ OpenAI's GPT models to deliver accurate and concise meeting summaries.
 
 - **Backend Framework**: Flask
 - **Speech-to-Text Service**: Azure Speech-to-Text
-- **AI Model**: OpenAI's GPT
-- **Database**: MongoDB
+- **AI Model**: OpenAI's GPT Assistant
+- **Database**: Azure Cosmos DB
 - **Chatbot Interface**: Telegram API
-- **Hosting/Deployment**: [Preferred hosting solution]
+- **Hosting/Deployment**: Docker, Azure Container Registry + Azure App Service 
+
+### System Architecture
+![Alternative Text](System Architecture.svg)
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.x(3.8+)
 - Flask
-- MongoDB
+- Azure Cosmos DB
 - Azure and OpenAI API keys
 - Telegram Bot access
 
@@ -59,8 +62,15 @@ OpenAI's GPT models to deliver accurate and concise meeting summaries.
 
 4. **Run the Flask application:**
    ```
-   python app.py
+   python3 app.py
    ```
+   
+### Run in Docker container
+
+```
+docker build --no-cache -t openai-meeting-assistant:latest . 
+docker run -d -p 5000:5000 --name meeting-assistant openai-meeting-assistant:latest
+```
 
 ## Usage
 
@@ -70,10 +80,6 @@ OpenAI's GPT models to deliver accurate and concise meeting summaries.
 4. **Access past transcripts and summaries memory from the MongoDB database.**
 5. TBD
 
-## Contributing
-
-Contributions to enhance the functionality or improve the codebase are welcome. Please follow the standard fork-and-pull
-request workflow.
 
 ## License
 
